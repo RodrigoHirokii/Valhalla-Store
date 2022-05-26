@@ -1,0 +1,200 @@
+/* General Styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/* SuperInfo */
+.superinfo-bg {
+  background: #222;
+}
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+.superinfo p {
+  color: white;
+}
+/* Header */
+.menu-bg {
+  background: linear-gradient(90deg, #41b883 0%, rgba(0, 212, 255, 1) 100%);
+}
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.menu a {
+  color: white;
+}
+.menu-logo {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-nav a {
+  font-size: 1.25em;
+  display: block;
+  padding: 10px;
+}
+/* Intodrução */
+.introducao {
+  text-transform: uppercase;
+  font-size: 3em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+.sobre-main {
+  border-top: 2px solid #41b883;
+  border-bottom: 2px solid #41b883;
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
+/* Produtos */
+.produtos {
+  max-width: 960px;
+  margin: 60px auto;
+}
+.produtos h1 {
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+}
+.produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.produtos-item {
+  flex: 1 1 175px;
+  margin: 10px;
+}
+.produtos-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+/* Compre Já */
+.compre-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.roupa-container {
+  background-color: #41b883;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  padding: 30px 20px;
+}
+.roupa-container input {
+  flex: 3;
+  font-size: 1rem;
+  border: 2px solid #d1d3d4;
+  border-radius: 5px;
+  padding: 12px;
+  font-weight: 500;
+}
+.nova-roupa-button {
+  flex: 1;
+  border-radius: 5px;
+  font-weight: 500;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  background: #f7f7f7;
+  padding: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.roupasAdd-container {
+  background-color: #41b883;
+  padding: 30px 40px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0red, 0, 0, 0.3);
+  width: 100%;
+}
+.copy {
+  margin-top: 60px;
+  display: flex;
+  background: black;
+  height: 200px;
+  align-items: center;
+}
+.copy p {
+  flex: 1;
+  text-align: center;
+  font-size: 2.25em;
+  color: white;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.task-item i {
+  background-color: #fff;
+  color: black;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.task-item i:hover {
+  cursor: pointer;
+}
+
+/* Utilities */
+.error {
+  border: 2px solid red !important;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}
